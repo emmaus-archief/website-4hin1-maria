@@ -67,7 +67,6 @@ h1, h2, h3 {
 
 .smalltext {
     text-align: center;
-    font-size: 0.7em;
 }
 
 a {
@@ -107,4 +106,10 @@ nav li a:hover {
 
 nav li a.active {
     background-color: skyblue;
+}
+
+#title{
+  font-family:monospace;
+  color:rgb(69, 107, 42)
+
 }
