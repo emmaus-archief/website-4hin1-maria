@@ -3,7 +3,7 @@
 html, body {                      
   margin: 0px;                    
   background-color: #699676;    
-  color: #303030;               
+              
 }  
 
 body * {                          
@@ -27,7 +27,7 @@ main {
   text-align: justify;           
 }
 
-h1, h2, h3 {                      
+h1, h2, h3, h4 {                      
   margin: 10px 0px;
   text-align: center; 
 } 
@@ -38,40 +38,10 @@ p {
 }
 
 
-
-.kolomLinks {
-  float:left;
-  width:250px;
-  padding-right:15px;           
-}
-.kolomRechts {
-  float:left;
-  width: 450px;
-}
-.kolomStop {
-  clear:both;                   
-}
-
-
-
-h1, h2, h3 {
-      color: skyblue;
-}
-
 .smalltext {
     text-align: center;
     font-family:monospace;
 }
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 
 
 nav ul {
@@ -93,6 +63,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   
     
 }
 
@@ -108,4 +79,16 @@ nav li a.active {
   font-family:monospace;
   color:rgb(69, 107, 42)
 
+}
+#book-gif{
+  width:300px;
+  margin:10px;
+  border-radius:10px;
+}
+
+a{
+  color:black;
+}
+a:hover{
+  color:#032568;
 }
