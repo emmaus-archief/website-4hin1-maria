@@ -13,7 +13,6 @@ body * {
 
 }
 
-
 .page {
   width: 700px;                  
   margin: 10px auto;              
@@ -28,8 +27,8 @@ main {
 }
 
 h1, h2, h3, h4 {                      
-  margin: 10px 0px;
-  text-align: center; 
+  margin: 10px 0px; 
+  text-align: center;
 } 
 
 p {
@@ -46,7 +45,7 @@ p {
 
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: 10px;
     padding: 0;
     background-color: #85512c;
     overflow: hidden;
@@ -90,5 +89,74 @@ a{
   color:black;
 }
 a:hover{
-  color:#032568;
+  color:#ffffff;
+}
+
+.headings{
+  text-align: left;
+}
+
+.dividers{
+  text-align: left;
+}
+
+#cat_laptop{
+  width:230px;
+  margin:10px;
+  border-radius:10px;
+}
+
+.jijigif_home{
+  width:200px;
+  transition:1s;
+}
+
+.jijigif_home:hover + .jiji_text{
+  display:block;
+}
+
+.jijigif_home:hover{
+  width:220px;
+}
+
+.jiji_text{
+  display:none;
+  position:absolute;
+  float:right;
+  left:100px;
+}
+
+#cats_watching_movie{
+  width: 230px;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+  float:left;
+  right:-80px;
+}
+
+#cat_reading_book{
+  width: 230px;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+  float:left;
+  right:-80px;
+}
+#cat_playing_piano{
+  width: 230px;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+  float:left;
+  right:-80px;
+  top:-95px;
+}
+#blackcat_meme{
+  width: 230px;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+  float:left;
+  right:-80px;
 }
