@@ -29,6 +29,7 @@ main {
 h1, h2, h3, h4 {                      
   margin: 10px 0px; 
   text-align: center;
+  position:relative;
 } 
 
 p {
@@ -79,11 +80,6 @@ nav li a.active {
   color:rgb(69, 107, 42)
 
 }
-#book-gif{
-  width:300px;
-  margin:10px;
-  border-radius:10px;
-}
 
 a{
   color:black;
@@ -100,12 +96,33 @@ a:hover{
   text-align: left;
 }
 
-#cat_laptop{
+
+/*this is for home page*/
+.cat_pictures_home{
+  width: 230px;
+  margin:5px;
+  border-radius:10px;
+  float:left;
+  position:relative;
+}
+
+
+
+/*this is for subpage books*/
+#book-gif{
+  width:300px;
+  margin:10px;
+  border-radius:10px;
+}
+
+/* this is for sub page films */
+#cat_laptop{  
   width:230px;
   margin:10px;
   border-radius:10px;
 }
 
+/* this is for suggestions */
 .jijigif_home{
   width:200px;
   transition:1s;
@@ -126,37 +143,4 @@ a:hover{
   left:100px;
 }
 
-#cats_watching_movie{
-  width: 230px;
-  margin: 5px;
-  border-radius: 10px;
-  position: relative;
-  float:left;
-  right:-80px;
-}
 
-#cat_reading_book{
-  width: 230px;
-  margin: 5px;
-  border-radius: 10px;
-  position: relative;
-  float:left;
-  right:-80px;
-}
-#cat_playing_piano{
-  width: 230px;
-  margin: 5px;
-  border-radius: 10px;
-  position: relative;
-  float:left;
-  right:-80px;
-  top:-95px;
-}
-#blackcat_meme{
-  width: 230px;
-  margin: 5px;
-  border-radius: 10px;
-  position: relative;
-  float:left;
-  right:-80px;
-}
