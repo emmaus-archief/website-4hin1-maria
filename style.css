@@ -26,7 +26,7 @@ main {
   text-align: justify;           
 }
 
-h1, h2, h3, h4 {                      
+h1, h2, h3, h5 {                      
   margin: 10px 0px; 
   text-align: center;
   position:relative;
@@ -111,9 +111,26 @@ a:hover{
   border-radius:10px;
   margin: 10px;
   float: right;
+  border: 6px solid #065606;
+  transition:1s;
+}
+
+.cat_pictures_books:hover{
+  border: 6px solid #8dc38d 
 }
 /* this is for sub page films */
+.cat_pictures_films{
+  width: 200px;
+  border-radius:10px;
+  margin: 10px;
+  float: left;
+  border: 6px solid #165a16;
+  transition:1s;
+}
 
+.cat_pictures_films:hover{
+  border: 6px solid #7dca7d 
+}
 /* this is for suggestions */
 .jijigif_home{
   width:200px;
