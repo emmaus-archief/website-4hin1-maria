@@ -43,7 +43,6 @@ p {
     font-family:monospace;
 }
 
-
 nav ul {
     list-style-type: none;
     margin: 10px;
@@ -89,38 +88,31 @@ a:hover{
 }
 
 .headings{
-  text-align: left;
+  text-align: center;
 }
 
 .dividers{
-  text-align: left;
+  text-align: center;
 }
-
 
 /*this is for home page*/
 .cat_pictures_home{
   width: 230px;
   margin:5px;
   border-radius:10px;
-  float:left;
+  float:right;
   position:relative;
 }
 
-
-
 /*this is for subpage books*/
-#book-gif{
-  width:300px;
-  margin:10px;
-  border-radius:10px;
-}
 
-/* this is for sub page films */
-#cat_laptop{  
-  width:230px;
-  margin:10px;
+.cat_pictures_books{
+  width: 200px;
   border-radius:10px;
+  margin: 10px;
+  float: right;
 }
+/* this is for sub page films */
 
 /* this is for suggestions */
 .jijigif_home{
@@ -142,5 +134,4 @@ a:hover{
   float:right;
   left:100px;
 }
-
 
