@@ -100,11 +100,24 @@ a:hover{
 
 /*this is for home page*/
 .cat_pictures_home{
-  width: 230px;
+  width: 100%;
   margin:5px;
   border-radius:10px;
-  float: right;
-  position:relative;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
 }
 
 /*this is for subpage books*/
