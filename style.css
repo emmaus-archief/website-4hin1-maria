@@ -54,6 +54,7 @@ nav ul {
     background-color: #85512c;
     overflow: hidden;
     border-radius: 10px;
+    width:280px;
 }
 
 nav ul li {
@@ -119,6 +120,49 @@ a:hover{
   flex: 25%;
   padding: 5px;
 }
+
+
+.box{
+  background-image: url(afbeeldingen/acnh2opacity.jpg);
+  background-size: 1500px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.nyan_box{
+  background-image: url(afbeeldingen/nyancatbggif.gif);
+  border-radius: 10px;
+}
+
+.nyan_cat{
+  height: 250px;
+  width: 250px;
+  animation-name: nyancat;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nyancat{
+  0%   {left:5px; }
+  25%  {left: 400px; transform: rotate(0deg);}
+  50%  {left:400px; transform: rotate(360deg);}
+  75%  {left:5px;}
+  100% {left:5px; transform: rotate(360deg);}
+}
+
+.mycats_box{
+  height: 300px;
+}
+
+.mycat_pictures{
+  width: 250px;
+  border-radius: 10px;
+  margin: 7px;
+}
+
 
 /*this is for subpage books*/
 
