@@ -1,6 +1,4 @@
 
-
-
 html, body {                      
   margin: 0px;                    
   background-color: #699676;    
@@ -99,6 +97,12 @@ a:hover{
   text-align: center;
 }
 
+footer{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
 /*this is for home page*/
 .cat_pictures_home{
   width: 100%;
@@ -108,19 +112,13 @@ a:hover{
 
 .column {
   float: left;
-  width: 25%;
+  flex: 25%;
   padding: 5px;
 }
 
 .row {
   display: flex;
 }
-
-.column {
-  flex: 25%;
-  padding: 5px;
-}
-
 
 .box{
   background-image: url(afbeeldingen/acnh2opacity.jpg);
@@ -146,11 +144,11 @@ a:hover{
 }
 
 @keyframes nyancat{
-  0%   {left:5px; }
+  0%   {left:5px; transform: rotate(0deg);}
   25%  {left: 400px; transform: rotate(0deg);}
-  50%  {left:400px; transform: rotate(360deg);}
-  75%  {left:5px;}
-  100% {left:5px; transform: rotate(360deg);}
+  50%  {left:400px; transform: rotate(180deg);}
+  75%  {left:5px; transform: rotate(180deg);}
+  100% {left:5px; transform: rotate(0deg);}
 }
 
 .mycats_box{
@@ -174,6 +172,37 @@ a:hover{
   border: 6px solid #065606;
 }
 
+.block_box{
+  background-color: #813131;
+  width: 400px;
+  height: 320px;
+  position: relative;
+}
+
+.pages{
+position: absolute;
+  z-index: 2;
+}
+
+.page_box{
+  background-color: #f1ecdf;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 5px;
+  float: left;
+  margin-top: 5px;
+  border: solid 2px black;
+}
+
+.row2{
+  display: flex;
+}
+
+.column2{
+  flex: 50%;
+  padding: 5px;
+}
 
 /* this is for sub page films */
 .cat_pictures_films{
