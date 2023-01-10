@@ -163,25 +163,39 @@ footer{
 
 
 /*this is for subpage books*/
+.intro_books{
+  background-image: linear-gradient(#42275a, #734b6d);
+  border-radius: 10px;
+}
+
+.library_divider{
+  background-color: #065606;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+}
+
+.info_books{
+  background-image: linear-gradient(#42275a, #734b6d);
+  border-radius: 10px;
+  padding: 20px;
+}
 
 .cat_pictures_books{
   width: 200px;
   border-radius:10px;
   margin: 10px;
-  float: right;
+  float: left;
   border: 6px solid #065606;
 }
 
-.block_box{
-  background-color: #813131;
-  width: 400px;
-  height: 320px;
-  position: relative;
+.pages, .pages3, .pages5{
+  float: right;
 }
 
-.pages{
-position: absolute;
-  z-index: 2;
+.pages2, .pages4, .pages6{
+  float: left;
 }
 
 .page_box{
@@ -191,8 +205,12 @@ position: absolute;
   border-radius: 10px;
   padding: 5px;
   float: left;
-  margin-top: 5px;
-  border: solid 2px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: solid 9px #065606;
+  border-bottom: solid 9px #065606;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
 }
 
 .row2{
@@ -205,28 +223,49 @@ position: absolute;
 }
 
 /* this is for sub page films */
+.intro_film{
+  background-image: linear-gradient(#093028, #237A57);
+  border-radius: 10px;
+  padding: 10px;
+}
+  
 .cat_pictures_films{
-  width: 200px;
+  width: 250px;
   border-radius:10px;
   margin: 10px;
   float: left;
-  border: 6px solid #165a16;
+  border: 6px solid #000000;
+  position: relative;  
 }
 
-.cat_pictures_films_info_right{
-  width: 125px;
-  border-radius:8px;
+.filmtape, .filmtape4{
+  background:#965e40;
+  padding: 10px;
   margin: 10px;
-  border: 5px solid #113611;
+  border-radius: 10px;
+  border-top: dashed white 10px;
+  border-bottom: dashed white 10px;
   float: right;
 }
 
-.cat_pictures_films_info_left{
-  width: 125px;
-  border-radius:8px;
+.filmtape2, .filmtape5{
+  background:#7f685c;
+  padding: 10px;
   margin: 10px;
-  border: 5px solid #113611;
-  float: left;
+  border-radius: 10px;
+  border-top: dashed white 10px;
+  border-bottom: dashed white 10px;
+  float: right;
+}
+
+.filmtape3, .filmtape6{
+  background:#734b35;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-top: dashed white 10px;
+  border-bottom: dashed white 10px;
+  float: right;
 }
 
 /*subpage memes*/
