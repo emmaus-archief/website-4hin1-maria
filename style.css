@@ -269,12 +269,42 @@ footer{
 }
 
 /*subpage memes*/
-.cat_pictures_memes{
-  width: 175px;
-  border-radius:10px;
+
+.meow{
+  background-color: white;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+.logo{
+  width: 30px;
   margin: 10px;
   float: left;
-  border: 6px solid #276327;
+}
+
+.title_memes, .header_memes{
+  text-align: left;
+}
+
+.memepost{
+  width: 640px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #bababa;
+}
+.pfp{
+  width: 50px;
+  height: 50px;
+  border-radius:100%;
+  margin: 10px;
+  float: left;
+}
+
+.catmeme{
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 
