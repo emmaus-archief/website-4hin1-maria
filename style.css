@@ -1,15 +1,14 @@
 
 html, body {                      
   margin: 0px;                    
-  background-color: #699676;    
-              
+  background-color: #699676;
+  scroll-behavior: smooth; 
 }  
 
 body * {                          
   overflow: hidden;               
   box-sizing: border-box;         
   margin: 0px; 
-
 }
 
 
@@ -194,7 +193,7 @@ footer{
   float: right;
 }
 
-.pages2, .pages4, .pages6{
+.pages2, .pages4{
   float: left;
 }
 
@@ -211,6 +210,7 @@ footer{
   border-bottom: solid 9px #065606;
   border-left: solid 1px black;
   border-right: solid 1px black;
+  overflow: auto;
 }
 
 .row2{
@@ -238,7 +238,7 @@ footer{
   position: relative;  
 }
 
-.filmtape, .filmtape4{
+#filmtape, #filmtape4 {
   background:#965e40;
   padding: 10px;
   margin: 10px;
@@ -248,7 +248,7 @@ footer{
   float: right;
 }
 
-.filmtape2, .filmtape5{
+#filmtape2, #filmtape5 {
   background:#7f685c;
   padding: 10px;
   margin: 10px;
@@ -258,7 +258,7 @@ footer{
   float: right;
 }
 
-.filmtape3, .filmtape6{
+#filmtape3, #filmtape6 {
   background:#734b35;
   padding: 10px;
   margin: 10px;
