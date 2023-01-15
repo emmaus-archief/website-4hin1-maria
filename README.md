@@ -2,9 +2,9 @@ Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
-## *zet hier de titel van je website*
+## *Cats in media!* ##
 
-*zet hier een korte beschrijving van de informatie die je kunt vinden op je website*
+*here you can find stuff on cats you find in various types of media*
 
 ## Planning
 Werk de planning af van boven naar beneden<br>
@@ -88,4 +88,4 @@ https://validator.w3.org/
 
 ## Credits
 - Website template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-website-template
-- ...
+- Google Forms html code
